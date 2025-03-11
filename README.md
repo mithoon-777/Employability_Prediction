@@ -1,28 +1,22 @@
-# Employability_Prediction
+# Employability Prediction  
 
-This project deploys a machine learning model that predicts whether a person is "Employable" or "Less Employable" based on ratings given for various skills and attributes.
+This project uses a **Machine Learning model** to predict whether an individual is **Employable** or **Less Employable** based on their skills and attributes. It provides an easy-to-use **Gradio interface** for quick assessments.
 
-🚀 Features
+## Features  
+- Accepts ratings (1-5) for multiple employability factors.  
+- Uses a **Logistic Regression model** for better accuracy.  
+- Provides a **user-friendly Gradio interface**.  
+- Easily **deployable on Hugging Face Spaces**.  
 
-Accepts ratings (1-5) for multiple employability factors.
+## How It Works  
+1. Enter ratings **(1-5)** for various attributes such as communication skills, confidence, and mental alertness.  
+2. Click **"Submit"** to get your employability prediction.  
+3. The result will be displayed as:  
+   - **"Employable"** (if you meet the criteria).  
+   - **"Less Employable"** (if improvements are needed).
 
-Uses a Logistic Regression model for better accuracy.
-
-Provides a user-friendly interface with Gradio.
-
-Hosted on Hugging Face Spaces.
-
-🤖 Usage
-
-Open the Gradio UI.
-
-Rate yourself on different attributes (1-5).
-
-Click "Submit" to get the prediction.
-
-Results will show either ✅ "Employable" or 😞 "Less Employable".
-
-
- 
- 
- by ASTHAN MANI
+## Deploying on Hugging Face Spaces
+1. Create a new Space on Hugging Face Spaces.
+2. Select Gradio as the framework.
+3. Upload all project files (app.py, requirements.txt, and model files).
+4. Start the space, and your Employability Predictor is live!       
